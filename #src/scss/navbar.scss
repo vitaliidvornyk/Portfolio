@@ -1,0 +1,26 @@
+.navbar {
+    min-height: 89px;
+    padding: 33px 0px 0px 0px;
+    .container {
+        padding-bottom: 32px;
+        border-bottom: 1px solid #828282;
+    }
+    &__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    &__link {
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #828282;
+        text-decoration: none;
+        &:hover {
+            color: #070707;
+        }
+    }
+}

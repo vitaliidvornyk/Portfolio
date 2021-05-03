@@ -1,0 +1,38 @@
+.first {
+    min-height: 680px;
+    padding: 40px 0px 104px 0px;
+    &__descr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__name {
+        font-family: Gilroy-Bold;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 59px;
+        color: #070707;
+    }
+    &__profession {
+        margin: 95px 0px 0px 0px;
+        font-family: Gilroy-Medium;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #070707;
+    }
+    &__lang {
+        transform: rotate(-90deg);
+    }
+    &__link {
+        display: inline-block;
+        font-family: Gilroy-Bold;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #828282;
+        &:hover {
+            color: black;
+        }
+    }
+}
